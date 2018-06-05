@@ -1,19 +1,21 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <Description>A plugin for Microsoft.EntityFrameworkCore to support automatically recording data changes history.</Description>
+    <Description>A plugin for Microsoft.EntityFrameworkCore to support automatically recording data changes history. This version has been enhanced with additional configuration options. This was originally based on Microsoft.EntityFrameworkCore.AutoHistory.</Description>
     <VersionPrefix>2.0.3</VersionPrefix>
-    <Authors>rigofunc;rigofunc@outlook.com</Authors>
+    <Authors>rigofunc;rigofunc@outlook.com Modified by: Andrew Piper</Authors>
     <TargetFramework>netstandard2.0</TargetFramework>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <TreatWarningsAsErrors>true</TreatWarningsAsErrors>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <AssemblyName>Microsoft.EntityFrameworkCore.AutoHistory</AssemblyName>
-    <PackageId>Microsoft.EntityFrameworkCore.AutoHistory</PackageId>
+    <AssemblyName>Threax.EntityFrameworkCore.AutoHistory</AssemblyName>
+    <PackageId>Threax.EntityFrameworkCore.AutoHistory</PackageId>
     <PackageTags>Entity Framework Core;entity-framework-core;EF;Data;O/RM;Auto History;auto-history</PackageTags>
     <PackageProjectUrl>https://github.com/arch/AutoHistory</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/arch/AutoHistory/blob/master/LICENSE</PackageLicenseUrl>
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/arch/AutoHistory.git</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Version>2.0.3-pre1</Version>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
