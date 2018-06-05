@@ -15,7 +15,8 @@
     <RepositoryType>git</RepositoryType>
     <RepositoryUrl>https://github.com/arch/AutoHistory.git</RepositoryUrl>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Version>2.0.3</Version>
+    <Version>2.0.3.1</Version>
+    <PackageReleaseNotes>2.0.3.1 - Reduced size of Changed json by not using indented mode.</PackageReleaseNotes>
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Newtonsoft.Json" Version="10.0.3" />
